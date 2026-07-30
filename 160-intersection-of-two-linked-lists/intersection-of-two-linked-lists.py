@@ -1,5 +1,4 @@
-
-        # Definition for singly-linked list.
+# Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
 #         self.val = x
@@ -13,4 +12,5 @@ class Solution:
         while x != y:
             x = x.next if x else headB
             y = y.next if y else headA
+        
         return x
